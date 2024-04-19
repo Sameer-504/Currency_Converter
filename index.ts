@@ -1,8 +1,9 @@
 #! /usr/bin/env node
-
-
 import inquirer from 'inquirer'
+import chalk from "chalk";
 
+
+console.log(chalk.greenBright.bold("\n \t Welcome to code with Sameer Anis' - Currency Converter\n"));
 
 const Currency: any = {
     USD: 1, //Base Currency
